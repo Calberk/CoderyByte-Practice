@@ -1,3 +1,4 @@
+
 // RETURNS THE ACTUAL LONGEST SUB STRING
 
 // var lengthOfLongestSubstring = function(s) {
@@ -41,4 +42,16 @@ var lengthOfLongestSubstring = function(s) {
         return 0
     }
     return subStr
+function longestSubstring(s){
+    const sArray = s.split('')
+    const longestSubstring = [];
+    while(sArray.length){
+        const currentStr = [""];
+        if(currentStr.indexOf(s[i])===-1){
+            currentStr.push(s[i])
+            i++
+        }else{
+            
+        }
+    }
 }
