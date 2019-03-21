@@ -4,3 +4,5 @@ function charConvert (str) {
          return val.charCodeAt()})
     return splitArr.join('')
  }
+
+charConvert('the cat in the hat')
